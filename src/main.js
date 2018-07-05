@@ -16,14 +16,14 @@ export default {
   // 这个字段走 app.json
   config: {
     pages: [
-      'pages/news/list'
+      '^pages/editFood'
     ], // Will be filled in webpack
     window: {
       backgroundTextStyle: 'light',
       backgroundColor: '#d22222',
       backgroundColorTop: '#d22222',
       navigationBarBackgroundColor: '#d22222',
-      navigationBarTitleText: 'IT之家Lite',
+      navigationBarTitleText: '友邻厨房',
       navigationBarTextStyle: 'white'
     },
     tabBar: {

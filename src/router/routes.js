@@ -1,4 +1,10 @@
-module.exports = [
+module.exports = [{
+    path: '/pages/editFood',
+    name: 'editFood',
+    config: {
+      navigationBarTitleText: '美食',
+    }
+  },
   {
     path: '/pages/news/list',
     name: 'NewsList',
